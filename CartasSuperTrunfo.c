@@ -80,8 +80,9 @@ int main() {
     printf("\n--- Cadastro da Carta 2 ---\n");
     ler_carta(&carta2);
 
-    void exibir_carta(carta1);
-    void exibir_carta(carta2);
+    exibir_carta(carta1);
+    printf("\n\n");
+    exibir_carta(carta2);
 
     return 0;
 }
